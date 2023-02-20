@@ -4,7 +4,7 @@ This repository contains code for image classification of CIFAR-10 dataset using
 
 ## Dataset
 
-The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 classes, with 6,000 images per class. There are 50,000 training images and 10,000 test images. The dataset is divided into five training batches and one test batch, each with 10,000 images. The test batch contains exactly 1,000 randomly-selected images from each class. The training batches contain the remaining images in random order, but some training batches may contain more images from one class than another. More information about the dataset can be found ![here](https://www.cs.toronto.edu/~kriz/cifar.html).
+The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 classes, with 6,000 images per class. There are 50,000 training images and 10,000 test images. The dataset is divided into five training batches and one test batch, each with 10,000 images. The test batch contains exactly 1,000 randomly-selected images from each class. The training batches contain the remaining images in random order, but some training batches may contain more images from one class than another.
 
 ## Requirements
 To run the code, you need to have the following Python packages installed:
