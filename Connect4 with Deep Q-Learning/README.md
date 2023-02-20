@@ -12,10 +12,7 @@ To run this project, you need to install the following packages:
 + `tensorflow>=2.0.0`
 
 ## Running the Code
-The main code for our agent is provided in the file connect4.py. To train the agent, you can run the following command:
-```
-python connect4.py
-```
+The main code for our agent is provided in the file Connect4.ipynb.
 
 This will train the agent for 1000 episodes against a random agent. You can modify the number of episodes and the opponent agent in the code.
 
