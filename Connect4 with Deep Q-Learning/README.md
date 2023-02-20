@@ -12,10 +12,7 @@ To run this project, you need to install the following packages:
 + `tensorflow>=2.0.0`
 
 ## Running the Code
-The main code for our agent is provided in the file connect4.py. To train the agent, you can run the following command:
-```
-python connect4.py
-```
+The main code for our agent is provided in the file Connect4.ipynb.
 
 This will train the agent for 1000 episodes against a random agent. You can modify the number of episodes and the opponent agent in the code.
 
@@ -43,6 +40,9 @@ The agent uses the following hyperparameters:
 
 
 ## Evaluation
-We evaluated our agent by playing it against a random agent and measuring its win rate over multiple games. We found that the agent's win rate increased over time as it learned to make better moves.
+We evaluated our agent by playing it against a random agent and measuring its win rate over multiple games. We found that the agent's win rate increased over time as it learned to make better moves. We also monitored the agent's average reward per episode during training.
 
-We also monitored the agent's average reward per episode during training and found that it
+![](images/number_of_wins.jpg)
+![](images/rewards.jpg)
+
+
