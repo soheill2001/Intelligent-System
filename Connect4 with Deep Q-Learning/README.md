@@ -45,4 +45,7 @@ The agent uses the following hyperparameters:
 ## Evaluation
 We evaluated our agent by playing it against a random agent and measuring its win rate over multiple games. We found that the agent's win rate increased over time as it learned to make better moves.
 
+![](images/number_of_wins.jpg)
+![](images/rewards.jpg)
+
 We also monitored the agent's average reward per episode during training and found that it
