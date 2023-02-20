@@ -13,7 +13,9 @@ To run this project, you need to install the following packages:
 
 ## Running the Code
 The main code for our agent is provided in the file connect4.py. To train the agent, you can run the following command:
-`python connect4.py`
+```
+python connect4.py
+```
 
 This will train the agent for 1000 episodes against a random agent. You can modify the number of episodes and the opponent agent in the code.
 
@@ -32,6 +34,7 @@ Our agent is implemented using a deep neural network with the following architec
 + Dense layer: Applies another fully connected layer with 128 units and a ReLU activation function.
 + Dense layer: Applies another fully connected layer with 64 units and a ReLU activation function.
 + Output layer: Applies a fully connected layer with 7 units (one for each possible action) and a linear activation function.
+
 The agent uses the following hyperparameters:
 
 + Epsilon: The exploration rate, which determines the probability of taking a random action instead of the one recommended by the policy. The epsilon value starts at 1 and decays by a factor of 0.995 after each episode.
